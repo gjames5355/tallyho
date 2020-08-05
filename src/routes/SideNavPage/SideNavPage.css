@@ -1,0 +1,61 @@
+:root {
+  --blue-color: #80c3d2;
+  --orange-color: #ff8454;
+  --green-color: #88c87b;
+  --yellow-color: #f0cd3a;
+}
+
+.side-page-nav {
+  position: fixed;
+  top: 6rem;
+  left: 3px;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  max-width: 66px
+}
+
+.add-task-link {
+  margin-bottom: 6px;
+}
+
+.side-button {
+  background: none;
+  box-shadow: none;
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border: 0.1em solid var(--green-color);
+  border-radius: 1em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  color: white;
+  background-color: var(--green-color);
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.side-button:hover {
+  background-color: white;
+  color: var(--green-color);
+  border: 0.1em solid
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .side-page-nav {
+    top: 9rem;
+    left: 2rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .side-page-nav {
+    top: 10rem;
+    left: 10rem;
+  }
+}

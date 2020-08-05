@@ -1,0 +1,37 @@
+.task-list-page {
+  margin-top: 7rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .task-list-page {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .task-list-page {
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .task-list-page {
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .task-list-page {
+    margin-left: 30rem;
+    margin-right: 30rem;
+  }
+}

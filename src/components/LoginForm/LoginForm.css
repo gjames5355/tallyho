@@ -1,0 +1,95 @@
+:root {
+  --blue-color: #80c3d2;
+  --orange-color: #ff8454;
+  --green-color: #88c87b;
+  --yellow-color: #f0cd3a;
+}
+
+.login-form {
+  background-color: var(--green-color);
+  margin-right: 2em;
+  margin-left: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.signup-link {
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+}
+
+.link {
+  color: black;
+}
+
+.login-form-header {
+  font-family: 'Indie Flower', cursive;
+}
+
+.account-suggestion {
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+}
+
+.password {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.login-button {
+  background: none;
+  box-shadow: none;
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border: 0.1em solid var(--orange-color);
+  border-radius: 1em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  color: #FFFFFF;
+  background-color: var(--orange-color);
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.login-button:hover {
+  background-color: white;
+  color: #ff8a5c;
+}
+
+.sub-header {
+  font-family: 'Indie Flower', cursive;
+}
+
+.front-input {
+  border-radius: 25px;
+  border: 2px solid var(--orange-color);
+  padding: 20px;
+  width: 200px;
+  height: 6px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .login-form {
+    margin-right: 7em;
+    margin-left: 7em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  .login-form {
+    margin: 0 30rem;
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+}

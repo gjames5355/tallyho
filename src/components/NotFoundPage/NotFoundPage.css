@@ -1,0 +1,30 @@
+.NotFoundPage {
+  font-family: 'Acme', sans-serif;
+  margin-top: 7rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.oh-no-child {
+  max-height: 201px;
+}
+
+/* 800px and above; desktops */
+@media screen and (min-width: 800px) {
+  .oh-no-child {
+    max-height: 300px;
+  }
+
+}
+
+/* 500px and above; tablets */
+@media screen and (min-width: 500px) {
+  .NotFoundPage {
+    margin-top: 10rem;
+  }
+
+  .oh-no-child {
+    max-height: 300px;
+  }
+
+}

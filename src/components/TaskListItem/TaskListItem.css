@@ -1,0 +1,62 @@
+:root {
+  --blue-color: #80c3d2;
+  --orange-color: #ff8454;
+  --green-color: #88c87b;
+  --yellow-color: #f0cd3a;
+}
+
+
+.task-item {
+  background-color: var(--orange-color);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.task-image {
+  max-height: 150px;
+}
+
+.task-image-checked {
+  max-height: 150px;
+}
+
+.task-delete {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  margin-right: 2rem;
+}
+
+.fa-trash-alt:hover {
+  color: #fcf9ea;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 800px) {
+  .task-form-page {
+    margin-left: -4rem;
+    margin-right: -3rem;
+  }
+
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  .task-image {
+    max-height: 14rem;
+  }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .task-image {
+    max-height: 14rem;
+  }
+}

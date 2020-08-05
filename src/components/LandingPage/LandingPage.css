@@ -1,0 +1,88 @@
+:root {
+  --blue-color: #80c3d2;
+  --orange-color: #ff8454;
+  --green-color: #88c87b;
+  --yellow-color: #f0cd3a;
+}
+
+.register-button,
+.login-button {
+  border: 0.1em solid var(--orange-color);
+  background-color: var(--orange-color);
+}
+
+
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Acme', sans-serif;
+  padding-top: 19rem;
+  color: white;
+}
+
+.img-container {
+  background-image: url(../../img/tallyho-banner.jpeg);
+  /* The image used - important! */
+  background-size: cover;
+  position: relative;
+  /* Needed to position the cutout text in the middle of the image */
+  height: 64rem;
+  /* Some height */
+}
+
+
+.banner-title {
+  background-color: white;
+  color: black;
+  font-size: 10vw;
+  /* Responsive font size */
+  font-weight: bold;
+  margin: 0 auto;
+  /* Center the text container */
+  padding: 10px;
+  width: 40%;
+  text-align: center;
+  /* Center text */
+  position: absolute;
+  /* Position text */
+  top: 18%;
+  /* Position text in the middle */
+  left: 50%;
+  /* Position text in the middle */
+  transform: translate(-50%, -50%);
+  /* Position text in the middle */
+  mix-blend-mode: screen;
+  /* This makes the cutout text possible */
+}
+
+@media screen and (min-width: 700px) {
+
+  .banner-title {
+    top: 26%;
+  }
+
+  .bottom-container {
+    padding-top: 27rem;
+    font-size: 3vh;
+  }
+}
+
+
+@media screen and (min-width: 992px) {
+
+  .bottom-container {
+    padding-top: 40rem;
+    font-size: 3vh;
+  }
+
+  .img-container {
+    height: 86rem;
+    /* Some height */
+  }
+
+
+  .banner-title {
+    top: 25%;
+    /* Position text in the middle */
+  }
+}

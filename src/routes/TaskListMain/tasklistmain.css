@@ -1,0 +1,84 @@
+:root {
+  --blue-color: #80c3d2;
+  --orange-color: #ff8454;
+  --green-color: #88c87b;
+  --yellow-color: #f0cd3a;
+}
+
+.tallyho-header {
+  font-family: 'Indie Flower', cursive;
+  margin-left: 1em;
+}
+
+.toggle-log {
+  color: white;
+  text-decoration: none;
+  padding-top: 2rem;
+  padding-bottom: 2.2rem;
+  padding-right: 2.3rem;
+  padding-left: 2rem;
+}
+
+.log-button {
+  margin-top: 1em;
+  background: none;
+  box-shadow: none;
+  display: inline-block;
+  border: 0.1em solid var(--blue-color);
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  color: #FFFFFF;
+  background-color: var(--blue-color);
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.toggle-log:hover {
+  background-color: white;
+  color: var(--blue-color);
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 6px;
+  background-color: var(--blue-color);
+  text-decoration: none;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.tallyho-logo {
+  text-decoration: none;
+  color: white;
+}
+
+.tallyho-logo-front {
+  text-decoration: none;
+  color: black;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .log-button {
+    font-size: 23px;
+  }
+
+  .tallyho-header {
+    font-size: 19px;
+  }
+}

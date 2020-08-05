@@ -1,0 +1,65 @@
+:root {
+  --blue-color: #80c3d2;
+  --orange-color: #ff8454;
+  --green-color: #88c87b;
+  --yellow-color: #f0cd3a;
+}
+
+.registration-form {
+  background-color: var(--green-color);
+  margin-right: 2em;
+  margin-left: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.already-account {
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+}
+
+.register-button {
+  background: none;
+  box-shadow: none;
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border: 0.1em solid #ff8a5c;
+  border-radius: 1em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  color: #FFFFFF;
+  background-color: #ff8a5c;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.register-button:hover {
+  background-color: white;
+  color: #ff8a5c;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .registration-form {
+    margin-right: 7em;
+    margin-left: 7em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  .registration-form {
+    margin: 0 30rem;
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+}

@@ -1,0 +1,72 @@
+:root {
+  --blue-color: #80c3d2;
+  --orange-color: #ff8454;
+  --green-color: #88c87b;
+  --yellow-color: #f0cd3a;
+}
+
+.toggle-save {
+  background: none;
+  box-shadow: none;
+  display: inline-block;
+  border: 0.1em solid var(--yellow-color);
+  border-radius: 2rem;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  color: white;
+  background-color: var(--yellow-color);
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.toggle-save:hover {
+  background-color: white;
+  border-color: #ff8a5c;
+  color: #ff8a5c;
+}
+
+.toggle-saved {
+  background: none;
+  box-shadow: none;
+  display: inline-block;
+  border: 0.1em solid var(--green-color);
+  border-radius: 2rem;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  color: white;
+  background-color: var(--green-color);
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.edit-form-container {
+  margin-bottom: 1rem;
+}
+
+label {
+  font-family: 'Acme', sans-serif;
+}
+
+input {
+  box-shadow: none;
+  border-radius: 2rem;
+  border: 2px solid #ff8a5c;
+  height: 6px;
+}
+
+input,
+.toggle-save,
+.toggle-saved {
+  padding: 20px;
+  margin: 20px;
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  .edit-form {
+    margin-left: 44rem;
+    margin-right: 44rem;
+  }
+}
